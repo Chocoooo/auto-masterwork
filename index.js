@@ -31,7 +31,7 @@ module.exports = function autoMasterwork(dispatch)
         dispatch.toServer('C_UNIDENTIFY_EXECUTE', 1, {})
     }
     
-	function message() 
+    function message() 
     {
         dispatch.toClient('S_CHAT', 1, {
             channel: 24,
