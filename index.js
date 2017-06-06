@@ -41,6 +41,6 @@ module.exports = function autoMasterwork(dispatch)
             unk2: 0,
             authorName: '',
             message: 'Your item took' + masterworkTries + ' tries to masterwork.'
-        })
-	}
+	})
+    }
 }
